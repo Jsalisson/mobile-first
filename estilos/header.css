@@ -36,7 +36,8 @@
 	display: block;
 }
 
-.lista__menu__titulo, .lista__menu__item{
+.lista__menu__titulo, 
+.lista__menu__item{
 	padding: 1em;
 	background-color: var(--branco);
 
@@ -47,7 +48,7 @@
 	font-weight: 700;
 }
 
-.lista__menu__item{
+.lista__menu__link{
 	background :var(--azul-degrade);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
